@@ -12,8 +12,10 @@ This projects idea based on customers and seller response about  regulatory deli
 
 **Scraper Reference:** [https://nixpoin.com/python/scraping-shopee-dengan-python/](https://nixpoin.com/python/scraping-shopee-dengan-python/)
 
+**Convert K or M to Integer thousand or Miliion Python:** [https://gist.github.com/gajeshbhat/67a3db79a6aecd1db42343190f9a2f17](https://gist.github.com/gajeshbhat/67a3db79a6aecd1db42343190f9a2f17)
+
 # Web Scraping
-scrape over 2000 product postings in man's fashion from [https://shopee.co.id/Pakaian-Pria-cat.33](https://shopee.co.id/Pakaian-Pria-cat.33) With each post got the following:
+scrape over 2000 product postings in sales man's fashion from [https://shopee.co.id/Pakaian-Pria-cat.33?page=0&sortBy=sales](https://shopee.co.id/Pakaian-Pria-cat.33?page=0&sortBy=sales) With each post got the following:
 1. nama = name of product
 2. Kategori = The category of the product
 3. jenis = more detail in the category section
@@ -26,3 +28,13 @@ scrape over 2000 product postings in man's fashion from [https://shopee.co.id/Pa
 10. n_produk_toko = number of the products in the particular store
 11. umur_toko = the store's age
 12. pengikut_toko = the store's follower
+
+# Data Cleaning
+after sraping, I needed to clean it up so the data was usable for the next step, which is Exploratory Data Analysis (EDA). here some changes that i made:
+- parsed city or district out of lokasi(location) column
+- removed rows without price
+- transformed price range to average price and add the value in harga_rata2(average price) column
+- transformed RB(K) or JT(M) to integer thousand or million in terjual(sales), n_review(number of reviews), n_produk(number of products) and pengikut_toko(followers) columns
+- transformed umur(age) into integer in months unit
+- replaced shopee value in jenis(sub-category) column into None
+- check and droped the duplicated table
