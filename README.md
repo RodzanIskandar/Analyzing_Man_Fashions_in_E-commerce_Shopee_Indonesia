@@ -38,3 +38,17 @@ after sraping, I needed to clean it up so the data was usable for the next step,
 - transformed umur(age) into integer in months unit
 - replaced shopee value in jenis(sub-category) column into None
 - check and droped the duplicated table
+
+# Exploratory Data Analysis (EDA)
+here I am answering my questions to fulfill the main idea, here are those question:
+1. what is the most sales in sub-category market? What is the suitable sub-category market for newcomers in Shopee Indonesia?
+2. what is the most effective store?
+3. What is the most popular store and what products are they sell?
+
+and also I am looked up at the distribution data and the correlation between the data with visualization. 
+Below are a few highlights from the EDA
+
+![](https://github.com/RodzanIskandar/Images/blob/main/1.png) 
+![](https://github.com/RodzanIskandar/Images/blob/main/2.png)
+![](https://github.com/RodzanIskandar/Images/blob/main/3.png)
+![](https://github.com/RodzanIskandar/Images/blob/main/4.png)
