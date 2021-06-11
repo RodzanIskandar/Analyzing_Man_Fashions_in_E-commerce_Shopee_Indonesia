@@ -48,7 +48,7 @@ here I am answering my questions to fulfill the main idea, here are those questi
 and also I am looked up at the distribution data and the correlation between the data with visualization. 
 Below are a few highlights from the EDA
 
-![](https://github.com/RodzanIskandar/Images/blob/main/1.png) 
-![](https://github.com/RodzanIskandar/Images/blob/main/2.png)
-![](https://github.com/RodzanIskandar/Images/blob/main/3.png)
-![](https://github.com/RodzanIskandar/Images/blob/main/4.png)
+![](https://github.com/RodzanIskandar/analyzed-man-fashions-in-e-commerce-Shopee-Indonesia/blob/main/images/1.png) 
+![](https://github.com/RodzanIskandar/analyzed-man-fashions-in-e-commerce-Shopee-Indonesia/blob/main/images/2.png)
+![](https://github.com/RodzanIskandar/analyzed-man-fashions-in-e-commerce-Shopee-Indonesia/blob/main/images/3.png)
+![](https://github.com/RodzanIskandar/analyzed-man-fashions-in-e-commerce-Shopee-Indonesia/blob/main/images/4.png)
