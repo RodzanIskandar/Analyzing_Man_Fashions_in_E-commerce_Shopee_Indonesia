@@ -15,7 +15,7 @@ This projects idea based on customers and seller response about  regulatory deli
 **Convert K or M to Integer thousand or Miliion Python:** [https://gist.github.com/gajeshbhat/67a3db79a6aecd1db42343190f9a2f17](https://gist.github.com/gajeshbhat/67a3db79a6aecd1db42343190f9a2f17)
 
 # Web Scraping
-scrape over 2000 product postings in sales man's fashion from [https://shopee.co.id/Pakaian-Pria-cat.33?page=0&sortBy=sales](https://shopee.co.id/Pakaian-Pria-cat.33?page=0&sortBy=sales) With each post got the following:
+Scrape over 2000 product postings in sales man's fashion from [https://shopee.co.id/Pakaian-Pria-cat.33?page=0&sortBy=sales](https://shopee.co.id/Pakaian-Pria-cat.33?page=0&sortBy=sales) With each post got the following:
 1. nama = name of product
 2. Kategori = The category of the product
 3. jenis = more detail in the category section
@@ -30,7 +30,7 @@ scrape over 2000 product postings in sales man's fashion from [https://shopee.co
 12. pengikut_toko = the store's follower
 
 # Data Cleaning
-after sraping, I needed to clean it up so the data was usable for the next step, which is Exploratory Data Analysis (EDA). here some changes that i made:
+After scraping, I needed to clean it up so the data was usable for the next step, which is Exploratory Data Analysis (EDA). here some changes that i made:
 - parsed city or district out of lokasi(location) column
 - removed rows without price
 - transformed price range to average price and add the value in harga_rata2(average price) column
@@ -40,7 +40,7 @@ after sraping, I needed to clean it up so the data was usable for the next step,
 - check and droped the duplicated table
 
 # Exploratory Data Analysis (EDA)
-here I am answering my questions to fulfill the main idea, here are those question:
+Here I am answering my questions to fulfill the main idea, here are those question:
 1. what is the most sales in sub-category market? What is the suitable sub-category market for newcomers in Shopee Indonesia?
 2. what is the most effective store?
 3. What is the most popular store and what products are they sell?
