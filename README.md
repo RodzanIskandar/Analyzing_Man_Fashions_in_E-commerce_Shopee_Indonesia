@@ -50,5 +50,3 @@ Below are a few highlights from the EDA
 
 ![](https://github.com/RodzanIskandar/analyzed-man-fashions-in-e-commerce-Shopee-Indonesia/blob/main/images/1.png) 
 ![](https://github.com/RodzanIskandar/analyzed-man-fashions-in-e-commerce-Shopee-Indonesia/blob/main/images/2.png)
-![](https://github.com/RodzanIskandar/analyzed-man-fashions-in-e-commerce-Shopee-Indonesia/blob/main/images/3.png)
-![](https://github.com/RodzanIskandar/analyzed-man-fashions-in-e-commerce-Shopee-Indonesia/blob/main/images/4.png)
